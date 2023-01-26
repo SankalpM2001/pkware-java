@@ -17,13 +17,11 @@ public class ArrayImp{
 
 		arr = new Student[5];
 
-		arr[0] = new Student(1, "aman");
-
-		arr[1] = new Student(2, "vaibhav");
-
-		arr[2] = new Student(3, "shikar");
-		arr[3] = new Student(4, "dharmesh");
-		arr[4] = new Student(5, "mohit");
+		arr[0] = new Student(1, "Akshat");
+		arr[1] = new Student(2, "Aryan");
+		arr[2] = new Student(3, "Basav");
+		arr[3] = new Student(4, "Divyam");
+		arr[4] = new Student(5, "Sankalp");
 
 		for (int i = 0; i < arr.length; i++)
 			System.out.println("Element at " + i + " : "
