@@ -12,7 +12,7 @@ public class StringFuncs {
 		String s="Hello Java";
 		System.out.println(s.charAt(4));
 		System.out.println(s.substring(2,5));
-		System.out.println(s.codePointAt(1));
+		System.out.println(s.codePointAt(0));
 		System.out.println(s1.concat(s2));
 		System.out.println(s.indexOf('l'));
 		char c[]=s.toCharArray();
