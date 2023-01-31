@@ -17,7 +17,7 @@ class Q
 {
     public void myMethod() //should be public
     {
-        System.out.println("My Method");
+        System.out.println("Method");
         
     }
 }
