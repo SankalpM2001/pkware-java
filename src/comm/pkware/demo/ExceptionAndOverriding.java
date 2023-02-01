@@ -2,7 +2,7 @@ package comm.pkware.demo;
 
 class Parent
 {
-	void fun() throws Exception
+	void fun() throws Throwable
 	{
 		System.out.println("Parent function");
 	}
@@ -14,7 +14,7 @@ class Child extends Parent
 {
 	void fun()throws ArithmeticException  //unchecked exception and subclass exception
 	{
-		System.out.println("Child function");
+		System.out.println("Child function"+ 10/0);
 	}
 }
 public class ExceptionAndOverriding {
@@ -29,7 +29,7 @@ public class ExceptionAndOverriding {
 			obj.fun();
 		}
 		
-		catch(Exception e) {
+		catch(Throwable e) {
 			System.out.println("Exception caught");
 		}
 
